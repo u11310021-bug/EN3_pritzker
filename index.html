@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaha Hadid: Queen of the Curve</title>
+    <meta name="description" content="An interactive presentation exploring the architecture, concepts, and legacy of Zaha Hadid.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="fluid-bg"></div>
+    
+    <nav>
+        <div class="logo">ZAHA HADID</div>
+        <ul class="nav-links">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#concepts">Concepts</a></li>
+            <li><a href="#ddp">DDP</a></li>
+            <li><a href="#sanaa">SANAA</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Page 1: Hero / Quote -->
+        <section id="intro" class="slide slide-hero">
+            <div class="content-wrapper fade-in">
+                <h1 class="title">Zaha Hadid</h1>
+                <p class="subtitle">Queen of the Curve</p>
+
+                <!-- Zaha Hadid 個人照片區塊 -->
+                <div class="zaha-portrait" style="width: 180px; height: 180px; margin: 0 auto 30px auto; border-radius: 50%; overflow: hidden; border: 2px solid var(--accent-color); background: linear-gradient(135deg, #1a1a1a, #0a0a0a); position: relative;">
+                    <img src="zaha_portrait.jpg" alt="Zaha Hadid" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 10;">
+                </div>
+
+                <blockquote class="quote">
+                    "If I was a man, they wouldn't call me a diva."
+                </blockquote>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to Explore</span>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 1 & 2: Basic Data & Facts -->
+        <section id="facts" class="slide slide-facts">
+            <div class="content-wrapper">
+                <h2 class="section-title fade-in">Basic Data</h2>
+                <div class="facts-grid">
+                    <div class="fact-card fade-in"><h3>01</h3><p>Born in Baghdad, Iraq, on October 31, 1950.</p></div>
+                    <div class="fact-card fade-in"><h3>02</h3><p>Died in Miami, Florida, U.S., on March 31, 2016, at the age of 65.</p></div>
+                    <div class="fact-card fade-in"><h3>03</h3><p>Relocated to London in 1972 to study at the Architectural Association (AA), graduating in 1977.</p></div>
+                    <div class="fact-card fade-in"><h3>04</h3><p>Primarily taught architecture before the 1980s.</p></div>
+                    <div class="fact-card fade-in"><h3>05</h3><p>Designed the Danjiang Bridge in Taiwan.</p></div>
+                </div>
+
+                <h2 class="section-title fade-in" style="margin-top: 60px;">Key Facts</h2>
+                <div class="facts-grid">
+                    <div class="fact-card fade-in"><h3>01</h3><p>Studied mathematics at the American University of Beirut.</p></div>
+                    <div class="fact-card fade-in"><h3>02</h3><p>Became a student of Rem Koolhaas and Elia Zenghelis.</p></div>
+                    <div class="fact-card fade-in"><h3>03</h3><p>Joined OMA (Office for Metropolitan Architecture) in 1977 as a partner alongside her former mentors.</p></div>
+                    <div class="fact-card fade-in"><h3>04</h3><p>Became the first female architect to win the Pritzker Architecture Prize in 2004.</p></div>
+                    <div class="fact-card fade-in"><h3>05</h3><p>Renowned for designing futuristic structures defined by sweeping curves.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 3 & 4: Design Philosophy -->
+        <section id="concepts" class="slide slide-philosophy">
+            <div class="content-wrapper">
+                <h2 class="section-title fade-in">Design Philosophy</h2>
+                <p class="section-desc fade-in">The 8 core concepts defining Zaha Hadid's architectural language.</p>
+                
+                <div class="philosophy-grid">
+                    <div class="philosophy-card fade-in">
+                        <h3>1. Fluidity</h3>
+                        <p class="dict-def"><strong>Dictionary:</strong> The quality of being fluid; flowing freely like a liquid.</p>
+                        <p class="zaha-def"><strong>Zaha's Perspective:</strong> "I'm trying to discover an architecture that flows together with contemporary cities and the lives of their peoples."</p>
+                    </div>
+                    <div class="philosophy-card fade-in">
+                        <h3>2. Topography</h3>
+                        <p class="dict-def"><strong>Dictionary:</strong> The detailed mapping or physical features of a land area.</p>
+                        <p class="zaha-def"><strong>Zaha's Perspective:</strong> The ground is a malleable surface. Roof, wall, and ground should not be separate boxes, but continuous surfaces echoing nature.</p>
+                    </div>
+                    <div class="philosophy-card fade-in">
+                        <h3>3. Deconstructivism</h3>
+                        <p class="dict-def"><strong>Dictionary:</strong> An architectural movement characterized by fragmentation and distortion.</p>
+                        <p class="zaha-def"><strong>Zaha's Perspective:</strong> "There are 360 degrees, so why stick to one?" Fragmenting the grid creates dynamic spaces that excite the human experience.</p>
+                    </div>
+                    <div class="philosophy-card fade-in">
+                        <h3>4. Parametricism</h3>
+                        <p class="dict-def"><strong>Dictionary:</strong> A style based on computer technology and algorithms to create complex structures.</p>
+                        <p class="zaha-def"><strong>Zaha's Perspective:</strong> Advanced computational tools allow us to realize nature-like geometries where every element is parametrically malleable.</p>
+                    </div>
+                    <div class="philosophy-card fade-in">
+                        <h3>5. Hybridity</h3>
+                        <p class="dict-def"><strong>Dictionary:</strong> The quality of combining two different elements into a new entity.</p>
+                        <p class="zaha-def"><strong>Zaha's Perspective:</strong> It isn't about competition between typologies, but about cross-pollination and what these disciplines can contribute to one another.</p>
+                    </div>
+                    <div class="philosophy-card fade-in">
+                        <h3>6. Transparency</h3>
+                        <p class="dict-def"><strong>Dictionary:</strong> The property of allowing light to pass through so objects behind can be seen.</p>
+                        <p class="zaha-def"><strong>Zaha's Perspective:</strong> Incorporating transparency dissolves boundaries between the interior and the urban landscape, removing oppressive weight.</p>
+                    </div>
+                    <div class="philosophy-card fade-in">
+                        <h3>7. Lightness</h3>
+                        <p class="dict-def"><strong>Dictionary:</strong> The state or quality of being light in weight; defying gravity.</p>
+                        <p class="zaha-def"><strong>Zaha's Perspective:</strong> Architecture should not always feel bound by gravity; it can defy mass to create floating structures that liberate space.</p>
+                    </div>
+                    <div class="philosophy-card fade-in">
+                        <h3>8. Flux</h3>
+                        <p class="dict-def"><strong>Dictionary:</strong> Continuous change, passage, or movement in a system.</p>
+                        <p class="zaha-def"><strong>Zaha's Perspective:</strong> Architecture is "movement frozen." It must mirror the dynamism of modern life and exist in a constant state of flux.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 5 & 6: DDP -->
+        <section id="ddp" class="slide slide-ddp">
+            <div class="content-wrapper">
+                <h2 class="section-title fade-in">Dongdaemun Design Plaza (DDP)</h2>
+                <p class="section-desc fade-in">The ultimate embodiment of Zaha Hadid's philosophy. DDP synthesizes these 8 master concepts into a single, living architecture.</p>
+                
+                <div class="concepts-grid">
+                    <!-- Concept 1 -->
+                    <div class="concept-card fade-in">
+                        <div class="placeholder-img">
+                            <img src="ddp_1.jpg" alt="Fluidity & Continuity">
+                        </div>
+                        <div class="concept-content">
+                            <h3>1. Fluidity & Continuity</h3>
+                            <p class="zaha-def">DDP features no rigid right angles. Its exterior is composed of 45,000 curved aluminum panels, allowing the 3D fluid shell to flow seamlessly. Indoors, the white Design Pathway flawlessly connects walls, floors, and ceilings into a single continuous space.</p>
+                        </div>
+                    </div>
+
+                    <!-- Concept 2 -->
+                    <div class="concept-card fade-in">
+                        <div class="placeholder-img">
+                            <img src="ddp_2.jpg" alt="Landscape & Topography">
+                        </div>
+                        <div class="concept-content">
+                            <h3>2. Landscape & Topography</h3>
+                            <p class="zaha-def">Zaha seamlessly merged the architecture with the urban topography. The green roof extends directly to the ground, transforming the building into a man-made undulating hill that blurs the line between earth and structure.</p>
+                        </div>
+                    </div>
+
+                    <!-- Concept 3 -->
+                    <div class="concept-card fade-in">
+                        <div class="placeholder-img">
+                            <img src="ddp_3.jpg" alt="Deconstructivism">
+                        </div>
+                        <div class="concept-content">
+                            <h3>3. Deconstructivism & Fragmentation</h3>
+                            <p class="zaha-def">Shattering traditional rules, DDP eliminates distinct front or side facades. The highly intertwined and nested spaces continuously dismantle and reconstruct the viewer's perspective, creating a non-linear experience.</p>
+                        </div>
+                    </div>
+
+                    <!-- Concept 4 -->
+                    <div class="concept-card fade-in">
+                        <div class="placeholder-img">
+                            <img src="ddp_4.jpg" alt="Parametricism">
+                        </div>
+                        <div class="concept-content">
+                            <h3>4. Parametricism</h3>
+                            <p class="zaha-def">As South Korea's first public building designed with 3D Parametric BIM, ZHA utilized complex algorithms to precisely calculate and manufacture 45,000 uniquely sized, double-curved aluminum panels.</p>
+                        </div>
+                    </div>
+
+                    <!-- Concept 5 -->
+                    <div class="concept-card fade-in">
+                        <div class="placeholder-img">
+                            <img src="ddp_5.jpg" alt="Hybridity & Public Space">
+                        </div>
+                        <div class="concept-content">
+                            <h3>5. Hybridity & Public Space</h3>
+                            <p class="zaha-def">DDP blurs the boundary between city and architecture, perfectly integrating ancient city wall ruins, a subway station, and a 24-hour public plaza. The Sunken Plaza serves as a premier urban space for the public.</p>
+                        </div>
+                    </div>
+
+                    <!-- Concept 6 -->
+                    <div class="concept-card fade-in">
+                        <div class="placeholder-img">
+                            <img src="ddp_6.jpg" alt="Light & Transparency">
+                        </div>
+                        <div class="concept-content">
+                            <h3>6. Light & Transparency</h3>
+                            <p class="zaha-def">Through perforated aluminum panels and irregular clerestory windows, natural light casts soft gradients indoors. At night, internal LED lighting shines outward, transforming the structure into a glowing nebula.</p>
+                        </div>
+                    </div>
+
+                    <!-- Concept 7 -->
+                    <div class="concept-card fade-in">
+                        <div class="placeholder-img">
+                            <img src="ddp_7.jpg" alt="Lightness & Mass Defiance">
+                        </div>
+                        <div class="concept-content">
+                            <h3>7. Lightness & Mass Defiance</h3>
+                            <p class="zaha-def">Featuring a breathtaking mega-truss cantilever, a huge segment of the building hovers tens of meters outward without vertical support. This defies the physical intuition of heavy concrete, creating a futuristic sense of floating.</p>
+                        </div>
+                    </div>
+
+                    <!-- Concept 8 -->
+                    <div class="concept-card fade-in">
+                        <div class="placeholder-img">
+                            <img src="ddp_8.jpg" alt="Dynamic Flux & Movement">
+                        </div>
+                        <div class="concept-content">
+                            <h3>8. Dynamic Flux & Movement</h3>
+                            <p class="zaha-def">Designed for Seoul's sleepless energy, the flowing exterior simulates the city's continuous pedestrian and traffic flux, solidifying the urban speed and vitality into guiding architectural lines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 7: Kazuyo Sejima (SANAA) -->
+        <section id="sanaa" class="slide slide-sanaa">
+            <div class="content-wrapper">
+                <h2 class="section-title fade-in">Looking Ahead: Kazuyo Sejima</h2>
+                <p class="section-desc fade-in">For my next study, I will explore the delicate and atmospheric architecture of Kazuyo Sejima (SANAA).</p>
+                
+                <div class="sejima-intro fade-in" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    
+                    <!-- 妹島和世個人照片區塊 -->
+                    <div class="sejima-portrait" style="width: 150px; height: 150px; margin: 0 auto 30px auto; border-radius: 50%; overflow: hidden; border: 2px solid var(--glass-border); background: linear-gradient(135deg, #1a1a1a, #0a0a0a); position: relative;">
+                        <!-- 圖片教學：將下方的 src 替換為妹島和世的照片檔名 -->
+                        <!-- <img src="sejima_portrait.jpg" alt="Kazuyo Sejima" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 10;"> -->
+                        <span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #666; font-size: 0.9rem; font-style: italic; white-space: nowrap;">Portrait</span>
+                    </div>
+
+                    <div class="quote-box" style="margin-bottom: 30px; font-size: 1.2rem;">
+                        "We want to create atmosphere, a landscape for people. We have tried to design a transparent building in the sense that we are not hiding what is happening behind the surface of the structure."
+                    </div>
+                    <ul class="features" style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;">
+                        <li>Atmosphere & Lightness</li>
+                        <li>Transparent Glass</li>
+                        <li>消融邊界 (Dissolving Boundaries)</li>
+                        <li>Minimalism</li>
+                    </ul>
+                </div>
+
+                <div class="sejima-images fade-in">
+                     <div class="placeholder-img-large" style="height: 300px;">
+                         <!-- 圖片教學：將 src 替換為您的圖片檔名 -->
+                         <!-- <img src="sejima1.jpg" alt="21st Century Museum"> -->
+                         <span>Image: 21st Century Museum of Contemporary Art, Kanazawa</span>
+                     </div>
+                     <div class="placeholder-img-large" style="height: 300px;">
+                         <!-- 圖片教學：將 src 替換為您的圖片檔名 -->
+                         <!-- <img src="sejima2.jpg" alt="Toledo Museum of Art"> -->
+                         <span>Image: Toledo Museum of Art Glass Pavilion</span>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>114-2 普立茲克建築獎_期末報告 | Developed with modern web technologies</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
